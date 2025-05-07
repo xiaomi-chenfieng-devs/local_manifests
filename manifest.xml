@@ -54,7 +54,7 @@
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,lanai-vendor" revision="lineage-21.0" remote="peridot-dev"/>
   <!-- Add device tree for chenfeng -->
   <project path="device/xiaomi/chenfeng" name="android_device_xiaomi_chenfeng" remote="chenfeng" revision="lineage-21" clone-depth="1" />
-  <project path="vendor/xiaomi/peridot" name="proprietary_vendor_xiaomi_peridot" remote="chenfeng" revision="lineage-21" clone-depth="1" />
+  <project path="vendor/xiaomi/chenfeng" name="vendor_xiaomi_chenfeng" remote="chenfeng" revision="main" clone-depth="1" />
   <project path="device/xiaomi/chenfeng-prebuilt" name="android_device_xiaomi_peridot-prebuilt" remote="chenfeng" revision="lineage-21" clone-depth="1" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="chenfeng" revision="lineage-21" clone-depth="1" />
 </manifest>
