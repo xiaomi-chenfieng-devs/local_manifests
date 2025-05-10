@@ -36,14 +36,14 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
   </project>
 
-  <project path="hardware/qcom-caf/sm8650/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,lanai-audio" revision="lineage-22.1-caf-sm8650" remote="chenfeng" />
-  <project path="hardware/qcom-caf/sm8650/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,lanai-audio" revision="lineage-22.1-caf-sm8650" remote="chenfeng" />
-  <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom,lanai-audio" revision="lineage-22.1-caf-sm8650" remote="chenfeng" />
-  <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lanai-vendor" revision="lineage-22.1-caf-sm8650" remote="chenfeng" />
-  <project path="hardware/qcom-caf/sm8650/dataipa" name="android_vendor_qcom_opensource_dataipa" groups="qcom,lanai-vendor" revision="lineage-22.1-caf-sm8650" remote="chenfeng" />
-  <project path="hardware/qcom-caf/sm8650/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-22.1-caf-sm8650" remote="chenfeng" />
-  <project path="hardware/qcom-caf/sm8650/media" name="android_hardware_qcom_media" groups="qcom,lanai-vendor" revision="lineage-22.1-caf-sm8650" remote="chenfeng" />
-  <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="lineage-21.0-caf-sm8650" remote="chenfeng" />
+  <project path="hardware/qcom-caf/sm8650/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,lanai-audio" revision="lineage-22.2-caf-sm8650" remote="chenfeng" />
+  <project path="hardware/qcom-caf/sm8650/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,lanai-audio" revision="lineage-22.2-caf-sm8650" remote="chenfeng" />
+  <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom,lanai-audio" revision="lineage-22.2-caf-sm8650" remote="chenfeng" />
+  <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lanai-vendor" revision="lineage-22.2-caf-sm8650" remote="chenfeng" />
+  <project path="hardware/qcom-caf/sm8650/dataipa" name="android_vendor_qcom_opensource_dataipa" groups="qcom,lanai-vendor" revision="lineage-22.2-caf-sm8650" remote="chenfeng" />
+  <project path="hardware/qcom-caf/sm8650/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-22.2-caf-sm8650" remote="chenfeng" />
+  <project path="hardware/qcom-caf/sm8650/media" name="android_hardware_qcom_media" groups="qcom,lanai-vendor" revision="lineage-22.2-caf-sm8650" remote="chenfeng" />
+  <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="lineage-22.0-caf-sm8650" remote="chenfeng" />
   
   <!-- Add device tree for chenfeng -->
   <project path="device/xiaomi/chenfeng" name="device_xiaomi_chenfeng" remote="chenfeng" revision="lineage-22.2" clone-depth="1" />
