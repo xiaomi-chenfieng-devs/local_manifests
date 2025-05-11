@@ -48,6 +48,6 @@
   <!-- Add device tree for chenfeng -->
   <project path="device/xiaomi/chenfeng" name="device_xiaomi_chenfeng" remote="chenfeng" revision="lineage-22.2" clone-depth="1" />
   <project path="vendor/xiaomi/chenfeng" name="vendor_xiaomi_chenfeng" remote="chenfeng" revision="main" clone-depth="1" />
-  <project path="device/xiaomi/chenfeng-prebuilt" name="device_xiaomi_chenfeng-kernel" remote="chenfeng" revision="lineage-22.2" clone-depth="1" />
+  <project path="device/xiaomi/chenfeng-kernel" name="device_xiaomi_chenfeng-kernel" remote="chenfeng" revision="lineage-22.2" clone-depth="1" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="chenfeng" revision="lineage-22.2" clone-depth="1" />
 </manifest>
