@@ -3,7 +3,6 @@
   <remote fetch="https://github.com/xiaomi-chenfieng-devs" name="chenfeng"/>
   <remote fetch="https://github.com/peridot-dev" name="peridot-dev"/>
 
-    <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" remote="chenfeng" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
